@@ -1,0 +1,147 @@
+.main { 
+    display: flex;
+    background-image: url("/recipe-images/pexels-antony-trivet-12959528.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    flex: auto;
+    position: static;
+}
+.head {
+    height: auto;
+    display: flex;
+    background-image: url("/recipe-images/tao.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    enable-background: accumulate;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 1;
+}
+.sign_up {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bunner{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(250, 248, 244, 0.6);
+    justify-content: space-around;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 15px;
+    flex: 1;
+    border-top: 2px solid grey;
+}
+.bunner img {
+    height: 350px;
+    width: 300px;
+    border-style: solid;
+    border-color: rgb(235, 221, 221);
+    outline-offset: 2px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.footer {
+    display: flex;
+    background-color: rgb(10, 9, 9);
+    color: white;
+    height: 300px;
+    width: 100%;
+    outline-style: solid;
+    outline-color: rebeccapurple;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    display: block;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(246, 248, 250);
+    margin-top: 25px;
+    justify-content: flex-start;
+    margin-top: -1;
+}
+.header_text {
+    color: rgb(252, 250, 250);
+    font-family: cursive;
+    font-size: x-large;
+    margin-bottom:  25px;
+    margin-left: 25px;
+    inline-size: 200px;
+    align-self: start;
+}
+.sign_button {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    text-shadow: 2px, 2px, 2px;
+    display: block;
+    border: 1px solid rgb(5, 5, 5);
+    background-color: rgb(14, 109, 126);
+    color: rgb(248, 245, 245);
+    align-items: flex-end;
+    margin: 0;
+    align-self: center;
+    justify-content: flex-end;
+    margin-left: 780px;
+}
+.sign_button :hover {
+    background-color: red;
+}
+.bunner, .footer {
+    margin-top: 300px;
+}
+.kenya {
+    height: 400px;
+    width: 350px;
+}
+figcaption {
+    font-size:larger;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+    color: rgb(17, 17, 16);
+    inline-size: 300px;
+}
+.githeri {
+    flex-grow: 2;
+}
+i {
+    color: white;
+    font-size: larger;
+}
+.end {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(7, 7, 219);
+}
+li {
+    color: aqua;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+.head_img {
+    opacity: 0.8;
+}
+.head nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(207, 66, 31);
+    color: white;
+}
